@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(207, 207, 207);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-image: url("https://i.ibb.co/TwqQvrZ/PRESENTACION-PARA-INDUCCI-1.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+.logo {
+    float: right;
+}
+.footer {
+    background-image: url("https://i.ibb.co/ggTsFJr/PRESENTACION-PARA-INDUCCI-2.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+.logo{
+    float: inline-end;
+}
+.icono{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+.icono2{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+}
+.icono1{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+}
+.pagina{
+    border: solid 5px;
+    border-color:green;
+    color: red;
+    cursor: pointer;
+
+}
+.regre{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    text-align: center;
+}
+.conto{
+    background-color: green;
+    padding-top: 16%;
+    height: 120px;
+}
+.contor{
+    background-color: #F8F0F0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-left: 27%;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    .dos, .seis, .siete, .ocho, .nueve, .diez, .once, .doce, .trece, .catorce, .quince, .dieciseis, .diecisiete, .dieciocho, .diecinueve, .veinte, .texto, .texto1 {
+        flex-direction: column;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+}
+.texto{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+}
+.boto{
+    border: solid 3px;
+    border-color:green;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.boton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.prueba{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .prueba iframe {
+        width: 100%;
+        height: 100vh;
+    }
+}
